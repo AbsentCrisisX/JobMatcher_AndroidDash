@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/NVB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp"
+        android:text="N. Vacaturebank crawler: " />
+    
+    <TextView
+        android:id="@+id/statusNVB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/NVB"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp" />
+    
+    <TextView
+        android:id="@+id/JB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/NVB"
+        android:textSize="15sp"
+        android:text="Jobbird crawler: " />
+    
+    <TextView
+        android:id="@+id/statusJB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/JB"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/NVB"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp" />
+    
+    <TextView
+        android:id="@+id/IJB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/JB"
+        android:textSize="15sp"
+        android:text="ITJobboard crawler: " />
+    
+    <TextView
+        android:id="@+id/statusIJB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/IJB"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/JB"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp" />
+    
+    <TextView
+        android:id="@+id/JSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/IJB"
+        android:textSize="15sp"
+        android:text="Jobselectie crawler: " />
+    
+    <TextView
+        android:id="@+id/statusJSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/JSV"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/IJB"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp" />
+    
+
+</RelativeLayout>

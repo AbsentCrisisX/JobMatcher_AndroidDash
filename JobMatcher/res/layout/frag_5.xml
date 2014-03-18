@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/CVB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp"
+        android:text="CV en Vacaturebank crawler: " />
+    
+    <TextView
+        android:id="@+id/statusCVB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/CVB"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp" />
+    
+    <TextView
+        android:id="@+id/IND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/CVB"
+        android:textSize="15sp"
+        android:text="Indeed crawler: " />
+    
+    <TextView
+        android:id="@+id/statusIND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/IND"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/CVB"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/JSR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/IND"
+        android:textSize="15sp"
+        android:text="Jobselectie crawler: " />
+    
+    <TextView
+        android:id="@+id/statusJSR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/JSR"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/IND"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp" />
+    
+
+</RelativeLayout>
